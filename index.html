@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="asset/css/style.css">
+    <title>Game</title>
+</head>
+<body>
+    <h1>Falling Letter Game</h1>
+    <audio  src="asset/music/music.wav" id="audio"></audio>
+    <div class="game-score">Score: <span id="score">0</span></div>
+    <div class="lifeLine">lifeLine: <span id="lifeLineValue">5</span></div>
+    <div class="highScore"> <span id="highScore"></span></div>
+    <div class="game-container">
+        <div class="game-over" id="gameOver">Game Over</div>
+        <button id="play-again" onclick="location.reload()">play again</button>
+    </div>
+    <div class="rules-box">
+        <p id="rules"></p>
+    </div>
+    <script src="asset/js/script.js"></script>
+</body>
+</html>

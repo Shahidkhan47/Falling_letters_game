@@ -1,0 +1,100 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  position: absolute;
+  text-align: center;
+  font-size: 50px;
+  top: 0;
+  text-decoration: underline;
+}
+
+.game-container {
+  position: relative;
+  width: 600px;
+  height: 500px;
+  margin: 5%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 100 1000 100px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+#play-again {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  padding: 5px;
+  width: 80px;
+  color: antiquewhite;
+  background-color: blue;
+  border: hidden;
+}
+
+#play-again:hover {
+  background-color: blueviolet;
+  cursor: pointer;
+}
+
+.game-score {
+  position: absolute;
+  top: 12%;
+  left: 62%;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.lifeLine {
+  position: absolute;
+  top: 12%;
+  left: 29%;
+  text-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.game-over {
+  text-decoration: solid;
+  text-align: center;
+  padding: 10px;
+  font-size: 40px;
+  color: red;
+  display: none;
+}
+
+.show-Result {
+  text-align: center;
+  font-size: 30px;
+}
+
+.rules-box {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  width: 250px;
+  height: 150px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+.falling-letter {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transform: rotateX(0.5deg);
+  font-size: 24px;
+  box-sizing: border-box;
+  border: hidden;
+  color: white;
+  background-color: red;
+  width: 5%;
+  border: solid red 1px;
+}
